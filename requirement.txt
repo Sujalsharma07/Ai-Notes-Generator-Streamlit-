@@ -1,6 +1,0 @@
-groq
-streamlit
-mysql-connector-python
-PyPDF2
-PyPDF2
-groq
