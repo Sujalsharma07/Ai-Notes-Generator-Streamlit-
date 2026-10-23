@@ -82,7 +82,7 @@ if "u" in st.session_state:
         if st.button("Generate"):
             with st.spinner("Generating short notes..."):
                 response = client.chat.completions.create(
-                    model="llama3-8b-8192", # Groq ke standard model ke sath update kiya hai
+                    model="openai/gpt-oss-120b", # Groq ke standard model ke sath update kiya hai
                     messages=[
                         {
                             "role": "user",
